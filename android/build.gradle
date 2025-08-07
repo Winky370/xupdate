@@ -28,7 +28,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 android {
     namespace 'com.xuexiang.flutter_xupdate'
-    compileSdk = 31 //flutter.compileSdkVersion
+    compileSdk = flutter.compileSdkVersion
 
     defaultConfig {
         minSdkVersion 16
